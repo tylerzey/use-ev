@@ -1,0 +1,40 @@
+{
+  "name": "use-ev",
+  "version": "0.0.1",
+  "description": "A simple useEvent hook for React",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "typescript",
+    "library"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tylerzey/use-ev"
+  },
+  "bugs": {
+    "url": "https://github.com/tylerzey/use-ev/issues"
+  },
+  "homepage": "https://github.com/tylerzey/use-ev#readme",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1"
+  }
+}
